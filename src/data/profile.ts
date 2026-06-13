@@ -1,5 +1,5 @@
 export const profile = {
-  name: "Your Name",
+  name: "Sky Portofolio",
   title: "Web3 Developer & AI Builder",
   location: "Indonesia",
   email: "zuhurrestu@gmail.com",
