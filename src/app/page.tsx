@@ -361,8 +361,7 @@ export default function Home() {
             </div>
             <h2>Ready to Build the Next Web3 Product?</h2>
             <p>
-              Replace the placeholder profile links with your real channels, then use this page as your public
-              portfolio for clients, communities, and builder campaigns.
+              
             </p>
             <div className="mt-8 flex flex-col flex-wrap justify-center gap-4 sm:flex-row">
               <a className="clay-button primary" href={`mailto:${profile.email}`}>
