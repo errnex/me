@@ -6,7 +6,7 @@ export const profile = {
   github: "https://github.com/errnex",
   twitter: "https://x.com/0xrichboy",
   linkedin: "https://linkedin.com/in/restu-zuhur",
-  telegram: "https://t.me/astroghan",
+  telegram: "https://t.me/sky_smol",
   shortBio:
     "I am an Informatics student, Web3 creator, and builder focused on creating practical blockchain dashboards, AI agents, and user-friendly digital products.",
   heroBadge: "Web3 Developer / Community Manager / Content Creator",
