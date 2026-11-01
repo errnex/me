@@ -731,28 +731,6 @@ body{font-size:1.06rem}
 }
 @media (prefers-reduced-motion: reduce){.scroll-rise{animation:none!important;opacity:1!important;transform:none!important}}
 
-/* v4: macOS-style open / minimize scroll animation */
-@keyframes mac-window {
-  entry 0% { opacity: 0; transform: translateY(48px) scale(0.85); filter: blur(8px); }
-  entry 75% { opacity: 1; transform: translateY(0) scale(1); filter: blur(0); }
-  exit 35% { opacity: 1; transform: translateY(0) scale(1); filter: blur(0); }
-  exit 100% { opacity: 0; transform: translateY(-28px) scale(0.9); filter: blur(8px); }
-}
-.scroll-rise { transform-origin: 50% 100%; will-change: transform, opacity, filter; animation: none; }
-@supports (animation-timeline: view()) {
-  .scroll-rise {
-    animation: mac-window linear both;
-    animation-timeline: view();
-    animation-range: entry 0% exit 100%;
-  }
-}
-/* Fallback (no scroll timelines): IntersectionObserver toggles .is-open */
-html.reveal-fallback .scroll-rise {
-  opacity: 0; transform: translateY(48px) scale(0.85); filter: blur(8px);
-  transition: opacity .6s ease, transform .75s cubic-bezier(.34,1.56,.64,1), filter .6s ease;
-}
-html.reveal-fallback .scroll-rise.is-open { opacity: 1; transform: none; filter: none; }
-html.reveal-fallback .scroll-rise.is-min { opacity: 0; transform: translateY(-28px) scale(0.9); filter: blur(8px); transform-origin: 50% 0; }
-@media (prefers-reduced-motion: reduce) {
-  .scroll-rise, html.reveal-fallback .scroll-rise { animation: none !important; opacity: 1 !important; transform: none !important; filter: none !important; transition: none !important; }
-}
+/* v5: JS-driven macOS open/minimize (see SmoothScroll.tsx). CSS animations disabled. */
+.scroll-rise { animation: none !important; transform-origin: 50% 100%; }
+html.mac-anim .scroll-rise { will-change: transform, opacity, filter; }
