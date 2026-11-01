@@ -36,10 +36,10 @@ export default function Home() {
   return (
     <div className="site-shell">
       <header className="sticky top-2 z-50 px-4 pt-2">
-        <nav className="clay-nav mx-auto flex max-w-[1100px] flex-wrap items-center justify-between gap-x-4 gap-y-1 px-3 py-2">
+        <nav className="clay-nav mx-auto flex max-w-[920px] flex-wrap items-center justify-between gap-x-4 gap-y-1 px-3 py-2">
           <a className="flex items-center gap-3" href="#">
             <span className="icon-tile tone-pink">
-              <BookOpen size={15} />
+              <BookOpen size={18} />
             </span>
             <span className="text-base font-black text-[var(--text)]">{profile.name}</span>
           </a>
@@ -69,7 +69,7 @@ export default function Home() {
 
       <main>
         <section className="hero-section px-4 pb-10 pt-10 sm:pt-14">
-          <div className="mx-auto grid max-w-[1100px] items-center gap-5 lg:grid-cols-[0.95fr_1.05fr]">
+          <div className="mx-auto grid max-w-[920px] items-center gap-5 lg:grid-cols-[0.95fr_1.05fr]">
             <div className="scroll-rise">
               <div className="pill-badge mb-4">
                 <span />
@@ -81,7 +81,7 @@ export default function Home() {
                 <span className="hero-sub">Full Stack Developer &amp; Community Lead</span>
               </h1>
 
-              <p className="mt-4 max-w-xl text-[0.95rem] leading-7 text-[var(--muted)]">{profile.shortBio}</p>
+              <p className="mt-4 max-w-xl text-[1.08rem] leading-8 text-[var(--muted)]">{profile.shortBio}</p>
 
               <div className="mt-6 flex flex-col gap-4 sm:flex-row">
                 <a className="clay-button primary" href="#experience">
@@ -119,7 +119,7 @@ export default function Home() {
                   <div>
                     <h2>{profile.name}</h2>
                     <p className="flex items-center gap-1">
-                      <MapPin size={14} />
+                      <MapPin size={17} />
                       {profile.location}
                     </p>
                   </div>
@@ -162,7 +162,7 @@ export default function Home() {
         </section>
 
         <section className="section-pad" id="about">
-          <div className="mx-auto grid max-w-[1100px] gap-5 lg:grid-cols-[1.1fr_0.9fr]">
+          <div className="mx-auto grid max-w-[920px] gap-5 lg:grid-cols-[1.1fr_0.9fr]">
             <div className="section-heading left scroll-rise">
               <p className="eyebrow">About Me</p>
               <h2>Who Is Sky?</h2>
@@ -170,7 +170,7 @@ export default function Home() {
             </div>
             <article className="clay-card feature-card scroll-rise">
               <span className="icon-tile tone-mint">
-                <GraduationCap size={19} />
+                <GraduationCap size={22} />
               </span>
               <h3>Quick Facts</h3>
               <ul className="mt-4 space-y-3">
@@ -186,7 +186,7 @@ export default function Home() {
         </section>
 
         <section className="section-pad cream-band" id="experience">
-          <div className="mx-auto max-w-[1100px]">
+          <div className="mx-auto max-w-[920px]">
             <div className="section-heading scroll-rise">
               <p className="eyebrow">Experience</p>
               <h2>Where I&apos;ve Contributed</h2>
@@ -210,7 +210,7 @@ export default function Home() {
                       target="_blank"
                     >
                       {item.organization}
-                      <ExternalLink size={14} />
+                      <ExternalLink size={17} />
                     </a>
                     <p>{item.description}</p>
                     <ul>
@@ -226,7 +226,7 @@ export default function Home() {
         </section>
 
         <section className="section-pad">
-          <div className="mx-auto max-w-[1100px]">
+          <div className="mx-auto max-w-[920px]">
             <div className="section-heading scroll-rise">
               <p className="eyebrow">Highlights</p>
               <h2>Roles I&apos;ve Been Trusted With</h2>
@@ -245,7 +245,7 @@ export default function Home() {
         </section>
 
         <section className="section-pad cream-band" id="skills">
-          <div className="mx-auto max-w-[1100px]">
+          <div className="mx-auto max-w-[920px]">
             <div className="section-heading scroll-rise">
               <p className="eyebrow">Skills</p>
               <h2>What I Bring</h2>
@@ -255,7 +255,7 @@ export default function Home() {
                 <article className="clay-card skill-card scroll-rise" key={category.title}>
                   <div className="mb-4 flex items-center gap-3">
                     <span className={`icon-tile ${index % 2 === 0 ? "tone-blue" : "tone-pink"}`}>
-                      <Sparkles size={15} />
+                      <Sparkles size={18} />
                     </span>
                     <h3>{category.title}</h3>
                   </div>
@@ -276,7 +276,7 @@ export default function Home() {
         <section className="cta-band px-4 py-12" id="contact">
           <div className="clay-card cta-card mx-auto max-w-[760px] scroll-rise">
             <div className="mx-auto mb-6 flex h-11 w-11 items-center justify-center rounded-2xl border-[3px] border-[var(--border)] bg-[var(--primary)]">
-              <Zap size={20} />
+              <Zap size={24} />
             </div>
             <h2>Let&apos;s Connect</h2>
             <p>Need a moderator, community manager, or support person for your project? Reach out anytime.</p>
@@ -307,7 +307,7 @@ export default function Home() {
       </main>
 
       <footer className="px-4 py-5">
-        <div className="mx-auto flex max-w-[1100px] flex-col items-center justify-between gap-4 border-t-2 border-[var(--border)] pt-4 text-xs font-bold text-[var(--muted)] sm:flex-row">
+        <div className="mx-auto flex max-w-[920px] flex-col items-center justify-between gap-4 border-t-2 border-[var(--border)] pt-4 text-xs font-bold text-[var(--muted)] sm:flex-row">
           <span>© 2026 {profile.name}. All rights reserved.</span>
           <span className="flex items-center gap-2">
             <Users size={16} />
