@@ -21,8 +21,13 @@ export const skillCategories: SkillCategory[] = [
     skills: ["Troubleshooting", "Hardware & Software Setup", "Networking Basics"]
   },
   {
-    title: "Content & Frontend",
-    description: "Content on X plus web basics.",
-    skills: ["X Content", "Next.js", "React", "TypeScript", "Tailwind CSS"]
+    title: "Content",
+    description: "Sharing updates and educating communities on X.",
+    skills: ["X Content", "Community Updates", "Web3 Education"]
+  },
+  {
+    title: "Full Stack Development",
+    description: "Building and shipping web apps end to end.",
+    skills: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Supabase", "GitHub", "Vercel"]
   }
 ];

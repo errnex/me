@@ -79,7 +79,7 @@ export default function Home() {
               <h1 className="hero-title">
                 Hi, I&apos;m <span>{profile.name}.</span>
                 <br />
-                Community &amp; IT Support.
+                Full Stack Developer &amp; Community Lead.
               </h1>
 
               <p className="mt-6 max-w-xl text-lg leading-8 text-[var(--muted)]">{profile.shortBio}</p>
@@ -191,7 +191,7 @@ export default function Home() {
             <div className="section-heading scroll-rise">
               <p className="eyebrow">Experience</p>
               <h2>Where I&apos;ve Contributed</h2>
-              <p>Web3 communities I have moderated, led, and supported, plus my work in IT support.</p>
+              <p>Web3 communities and crypto platforms I have moderated, led, and supported, plus my work in IT support.</p>
             </div>
 
             <div className="grid gap-6 lg:grid-cols-2">
@@ -312,7 +312,7 @@ export default function Home() {
           <span>© 2026 {profile.name}. All rights reserved.</span>
           <span className="flex items-center gap-2">
             <Users size={16} />
-            Community · Support · IT
+            Full Stack · Community · IT
           </span>
         </div>
       </footer>

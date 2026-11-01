@@ -37,6 +37,45 @@ export const experiences: Experience[] = [
     ]
   },
   {
+    "role": "Upline (Affiliate Partner)",
+    "organization": "Bitget Wallet ID",
+    "link": "https://x.com/BitgetWalletID",
+    "type": "Affiliate \u00b7 Remote",
+    "year": "Early 2026 - Present",
+    "description": "Active upline (affiliate partner) for Bitget Wallet ID, helping new users get started on the platform.",
+    "responsibilities": [
+      "Refer and onboard new users to the platform",
+      "Educate the community about the platform and its features",
+      "Support downline members with their questions"
+    ]
+  },
+  {
+    "role": "Upline (Affiliate Partner)",
+    "organization": "Indodax",
+    "link": "https://x.com/indodax",
+    "type": "Affiliate \u00b7 Remote",
+    "year": "Early 2026 - Present",
+    "description": "Active upline (affiliate partner) for Indodax, helping new users get started on the platform.",
+    "responsibilities": [
+      "Refer and onboard new users to the platform",
+      "Educate the community about the platform and its features",
+      "Support downline members with their questions"
+    ]
+  },
+  {
+    "role": "Upline (Affiliate Partner)",
+    "organization": "Bitunix",
+    "link": "https://x.com/BitunixOfficial",
+    "type": "Affiliate \u00b7 Remote",
+    "year": "Early 2026 - Present",
+    "description": "Active upline (affiliate partner) for Bitunix, helping new users get started on the platform.",
+    "responsibilities": [
+      "Refer and onboard new users to the platform",
+      "Educate the community about the platform and its features",
+      "Support downline members with their questions"
+    ]
+  },
+  {
     "role": "Intern IT Support",
     "organization": "PT. Multindo Auto Finance",
     "link": "https://multindo.co.id/",
