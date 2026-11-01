@@ -9,22 +9,23 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Sky Portfolio",
+  icons: { icon: "/avatar.png" },
+  title: "Sky | Web3 Community Leader & IT Support",
   description:
-    "Clay-style Web3 and AI portfolio website for a developer focused on dashboards, blockchain products, AI agents, and practical product interfaces.",
+    "Sky is an Informatics student from Indonesia: Web3 regional moderator, community manager, affiliate ambassador, community support, and IT Support.",
   openGraph: {
-    title: "Sky Portfolio",
+    title: "Sky | Web3 Community Leader & IT Support",
     description:
-      "A playful clay-style portfolio for Web3 dashboards, AI agents, and digital product work.",
+    "Sky is an Informatics student from Indonesia: Web3 regional moderator, community manager, affiliate ambassador, community support, and IT Support.",
     type: "website",
     locale: "en_US",
-    siteName: "Sky Portfolio",
+    siteName: "Sky | Web3 Community Leader & IT Support",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Sky Portfolio",
+    title: "Sky | Web3 Community Leader & IT Support",
     description:
-      "A playful clay-style portfolio for Web3 dashboards, AI agents, and digital product work."
+    "Sky is an Informatics student from Indonesia: Web3 regional moderator, community manager, affiliate ambassador, community support, and IT Support."
   }
 };
 

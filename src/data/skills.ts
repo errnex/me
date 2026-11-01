@@ -6,34 +6,23 @@ export type SkillCategory = {
 
 export const skillCategories: SkillCategory[] = [
   {
-    title: "Frontend",
-    description: "Modern product UI with a clean component system.",
-    skills: ["Next.js", "React", "TypeScript", "Tailwind CSS"]
+    title: "Community",
+    description: "Building and leading healthy Web3 communities.",
+    skills: ["Community Management", "Moderation", "Regional Leadership", "Ambassador Programs"]
   },
   {
-    title: "Web3",
-    description: "Wallet flows, onchain data, and blockchain integrations.",
-    skills: [
-      "Wagmi",
-      "Viem",
-      "Etherscan API",
-      "Alchemy API",
-      "Wallet Integration"
-    ]
+    title: "Support",
+    description: "Helping users and teams solve problems quickly.",
+    skills: ["Ticket Support", "Product Testing", "Bug Reporting", "User Feedback"]
   },
   {
-    title: "AI",
-    description: "Practical AI workflows for product and automation use cases.",
-    skills: ["Gemini API", "AI Agent", "Prompt Engineering", "Automation"]
+    title: "IT Support",
+    description: "Keeping devices, software, and networks running.",
+    skills: ["Troubleshooting", "Hardware & Software Setup", "Networking Basics"]
   },
   {
-    title: "Tools",
-    description: "Shipping stack for web apps and dashboards.",
-    skills: ["GitHub", "Vercel", "Supabase", "VS Code"]
-  },
-  {
-    title: "Content & Community",
-    description: "Education, research, and campaign narrative for Web3.",
-    skills: ["X Content","Community Management","Campaign Strategy","Web3 Research"]
+    title: "Content & Frontend",
+    description: "Content on X plus web basics.",
+    skills: ["X Content", "Next.js", "React", "TypeScript", "Tailwind CSS"]
   }
 ];
