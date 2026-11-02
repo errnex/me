@@ -8,6 +8,7 @@ import {
   Github,
   GraduationCap,
   Headphones,
+  Instagram,
   Linkedin,
   Mail,
   MapPin,
@@ -300,6 +301,10 @@ export default function Home() {
               <a className="clay-button secondary social-button" href={profile.twitter}>
                 <Twitter size={18} />
                 X
+              </a>
+              <a className="clay-button secondary social-button" href={profile.instagram}>
+                <Instagram size={18} />
+                Instagram
               </a>
             </div>
           </div>
