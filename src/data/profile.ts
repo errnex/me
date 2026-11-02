@@ -7,6 +7,7 @@ export const profile = {
   twitter: "https://x.com/0xrichboy",
   linkedin: "https://linkedin.com/in/restu-zuhur",
   telegram: "https://t.me/sky_smol",
+  instagram: "https://instagram.com/err.pov",
   shortBio:
     "I'm Sky, an Informatics student from Indonesia. I moderate and lead Web3 communities, support users as an ambassador and community support, and work as an IT Support intern. I also build web apps as a Full Stack Developer.",
   heroBadge: "Full Stack Developer / Community Manager / IT Support",
