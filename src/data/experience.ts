@@ -80,8 +80,8 @@ export const experiences: Experience[] = [
     "organization": "PT. Multindo Auto Finance",
     "link": "https://multindo.co.id/",
     "type": "Internship \u00b7 On-site (Semarang, Central Java)",
-    "year": "Jan 2025 - Present",
-    "description": "Assisting the company's IT team with day-to-day technical support.",
+    "year": "Jan 2025 - Apr 2025",
+    "description": "Assisted the company's IT team with day-to-day technical support.",
     "responsibilities": [
       "Assist the IT team with daily operations and requests",
       "Help staff with device, software, and network issues",
@@ -93,8 +93,8 @@ export const experiences: Experience[] = [
     "organization": "GAIB AI",
     "link": "https://x.com/gaib_ai",
     "type": "Full-time \u00b7 Remote (Singapore)",
-    "year": "Dec 2024 - Present",
-    "description": "Managing and moderating the regional GAIB AI community, keeping it friendly, safe, and informative.",
+    "year": "Dec 2024 - Jan 2026",
+    "description": "Managed and moderating the regional GAIB AI community, keeping it friendly, safe, and informative.",
     "responsibilities": [
       "Moderate regional community channels and enforce community rules",
       "Answer member questions and point them to official information",
@@ -106,8 +106,8 @@ export const experiences: Experience[] = [
     "organization": "Portal to Bitcoin",
     "link": "https://x.com/PortaltoBitcoin",
     "type": "Full-time \u00b7 Remote (San Francisco)",
-    "year": "Nov 2024 - Present",
-    "description": "Supporting the Portal to Bitcoin community and helping products launch smoothly.",
+    "year": "Nov 2024 - Jan 2026",
+    "description": "Supported the Portal to Bitcoin community and helped products launch smoothly.",
     "responsibilities": [
       "Assist in handling community issues",
       "Test products before public release",
